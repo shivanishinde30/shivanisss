@@ -1,0 +1,11 @@
+package com.training.dao;
+
+import com.training.beans.Bike;
+
+public interface BikeDao {
+
+	void registerBike(Bike b);
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package com.training.service;
+
+import com.training.beans.Bike;
+
+public interface BikeService {
+
+	int registerBike(Bike b);
+
+}

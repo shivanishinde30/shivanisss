@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/iet/shivaniss/advancedjava_workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3934215906.index
+632229748.index
+1208978377.index
+883304470.index
+2478903310.index
+3685631673.index
+271866068.index

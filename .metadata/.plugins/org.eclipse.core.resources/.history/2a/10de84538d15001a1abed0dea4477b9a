@@ -1,0 +1,18 @@
+package com.training.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.training.beans.Bike;
+import com.training.dao.BikeDao;
+
+public class BikeServiceImpl implements BikeService {
+
+	@Autowired
+	BikeDao bikeDao; 
+	@Override
+	public int registerBike(Bike b) {
+		retun bikeDao.registerBike(b);
+		
+	}
+
+}

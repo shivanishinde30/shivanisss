@@ -1,0 +1,12 @@
+package com.training;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class BikeController {
+	@RequestMapping("/")
+	public String bk() {
+		
+		return "index";
+	}
+
+}

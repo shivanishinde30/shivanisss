@@ -1,0 +1,13 @@
+package com.training.dao;
+
+import com.training.beans.Bike;
+
+public class BikeDaoImpl implements BikeDao {
+
+	JdbcTemplate jdbcTemplate
+	@Override
+	public void registerBike(Bike b) {
+
+	}
+
+}

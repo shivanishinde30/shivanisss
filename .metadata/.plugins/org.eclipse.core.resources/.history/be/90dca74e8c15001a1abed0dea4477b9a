@@ -1,0 +1,13 @@
+package com.training.service;
+
+import com.training.beans.Bike;
+
+public class BikeServiceImpl implements BikeService {
+
+	@Override
+	public void registerBike(Bike b) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

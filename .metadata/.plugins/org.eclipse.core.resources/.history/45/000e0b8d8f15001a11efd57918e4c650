@@ -1,0 +1,19 @@
+package com.training.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.training.beans.Bike;
+
+public class BikeDaoImpl implements BikeDao {
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	@Override
+	public int registerBike(Bike b) {
+		String sql="insert into Bike values(?,?,?,?,?,?)";
+		return jdbcTemplate.update(sql,new Object[] {b.getOname(),b.getBname(),b.getPrice(),b.getDisc(),b.getColor(),b.getType()});
+		
+
+	}
+
+}
